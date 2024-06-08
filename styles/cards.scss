@@ -41,13 +41,13 @@
         padding: 40px 26px; 
     } 
 
-    &__list {
+    &__options-list {
     height: 300px;
     margin: 0;
     padding: 0;
     list-style-type: none;  
 
-        .price-card__list-item {
+        .price-card__options-list-item {
         height: 50px;
         padding-left: 22px;
         font-size: 15px;
@@ -58,7 +58,7 @@
                 background-color: #2A3438;
             }
 
-            .price-card__list-icon {
+            .price-card__options-list-icon {
                 height: 13px;
                 width: 15px;
                 margin-right: 22px ;
