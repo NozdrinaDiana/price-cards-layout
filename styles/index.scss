@@ -1,0 +1,22 @@
+@import 'cards.scss';
+@import 'differences.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    background-color: #141b1c;
+
+}

@@ -1,0 +1,134 @@
+.price-card {
+  height: 770px;
+  width: 380px;
+  background-color: #334247;
+}
+.price-card__title {
+  margin: 0;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 33px;
+}
+.price-card__title-text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 33px;
+}
+.price-card__price {
+  margin: 0;
+  font-size: 55px;
+  line-height: 67px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.price-card__description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 300;
+  text-align: center;
+  padding: 40px 26px;
+}
+.price-card__list {
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.price-card__list .price-card__list-item {
+  height: 50px;
+  padding-left: 22px;
+  font-size: 15px;
+  line-height: 50px;
+  font-weight: 300;
+}
+.price-card__list .price-card__list-item:nth-child(odd) {
+  background-color: #2A3438;
+}
+.price-card__list .price-card__list-item .price-card__list-icon {
+  height: 13px;
+  width: 15px;
+  margin-right: 22px;
+}
+.price-card__button {
+  display: block;
+  height: 40px;
+  width: 155px;
+  margin: 39px auto 40px auto;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.price-card-green {
+  margin-right: 16px;
+}
+.price-card-green .price-card__price {
+  background-color: #5BB189;
+}
+.price-card-green .price-card__button {
+  background-color: #5BB189;
+}
+
+.price-card-blue {
+  margin-right: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.price-card-blue .price-card__badge {
+  position: absolute;
+  top: 27px;
+  right: -33px;
+  height: 25px;
+  width: 147px;
+  transform: rotate(45deg);
+  background-color: #DC3F45;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 700;
+  text-align: center;
+}
+.price-card-blue .price-card__price {
+  background-color: #3A6BA5;
+}
+.price-card-blue .price-card__button {
+  background-color: #3A6BA5;
+}
+
+.price-card-orange .price-card__price {
+  background-color: #EC632A;
+}
+.price-card-orange .price-card__button {
+  background-color: #EC632A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  background-color: #141b1c;
+}
+
+/*# sourceMappingURL=styles.css.map */
