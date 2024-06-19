@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### Site link:  https://nozdrinadiana.github.io/project-2__prace-cards/
+### [Site link](https://nozdrinadiana.github.io/project-2__prace-cards/)
 
 
 Layout support  desktop (up-to-1400) versions
