@@ -1,51 +1,49 @@
-
 .price-card_green {
-    margin-right: 16px;
+  margin-right: 18px;
 
-    .price-card__price {
-        background-color: #5BB189;
-    }
+  .price-card__price {
+    background-color: #5bb189;
+  }
 
-    .price-card__button {
-        background-color: #5BB189;
-    }
+  .price-card__button {
+    background-color: #5bb189;
+  }
 }
 
 .price-card_blue {
-    margin-right: 16px;
-    position: relative;
-    overflow: hidden;
+  margin-right: 18px;
+  position: relative;
+  overflow: hidden;
 
-    .price-card__badge {
-        position: absolute;
-        top: 27px;
-        right: -33px;
-        height: 25px;
-        width: 147px;
-        transform: rotate(45deg);
-        background-color: #DC3F45;
-        font-size:  14px; 
-        line-height: 27px; 
-        font-weight: 700;
-        text-align: center; 
-    }
+  .price-card__badge {
+    position: absolute;
+    top: 27px;
+    right: -33px;
+    height: 25px;
+    width: 147px;
+    transform: rotate(45deg);
+    background-color: #dc3f45;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 700;
+    text-align: center;
+  }
 
-    .price-card__price {
-        background-color: #3A6BA5;
-    }
+  .price-card__price {
+    background-color: #3a6ba5;
+  }
 
-    .price-card__button {
-        background-color: #3A6BA5;
-    }
+  .price-card__button {
+    background-color: #3a6ba5;
+  }
 }
 
 .price-card_orange {
+  .price-card__price {
+    background-color: #ec632a;
+  }
 
-    .price-card__price {
-        background-color: #EC632A;
-    }
-
-    .price-card__button {
-        background-color: #EC632A;
-    }
+  .price-card__button {
+    background-color: #ec632a;
+  }
 }

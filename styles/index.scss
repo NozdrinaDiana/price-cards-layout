@@ -2,21 +2,20 @@
 @import 'differences.scss';
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff;
 }
-
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #141b1c;
+}
 .page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 100vh;
-    background-color: #141b1c;
-
+  display: flex;
+  margin: auto;
 }

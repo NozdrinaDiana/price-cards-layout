@@ -1,72 +1,72 @@
-
 .price-card {
-    height: 770px;
-    width: 380px;
-    background-color: #334247;
+  height: 770px;
+  width: 380px;
+  overflow: hidden;
+  background-color: #334247;
 
-    &__title {
-        margin: 0;
-        font-size: 35px;
-        line-height: 43px;
-        font-weight: 700;
-        text-align: center;
-        padding-top: 33px;
-    }
+  &__title {
+    margin: 0;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 33px;
+  }
 
-    &__title-text {
-        margin: 0;
-        font-size: 20px;
-        line-height: 24px;
-        font-weight: 300;
-        text-align: center;
-        padding-bottom: 33px;
-    }
+  &__title-text {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 33px;
+  }
 
-    &__price {
-        margin: 0;
-        font-size: 55px;
-        line-height: 67px;
-        font-weight: 700;
-        text-align: center;
-        padding-top: 19px;
-        padding-bottom: 19px;
-    }
+  &__price {
+    margin: 0;
+    font-size: 55px;
+    line-height: 67px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
 
-    &__description {
-        margin: 0;
-        font-size: 15px;
-        line-height: 18px;
-        font-weight: 300;
-        text-align: center;
-        padding: 40px 26px; 
-    } 
+  &__description {
+    margin: 0;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px 26px;
+  }
 
-    &__options-list {
+  &__options-list {
     height: 300px;
     margin: 0;
     padding: 0;
-    list-style-type: none;  
+    list-style-type: none;
 
-        .price-card__options-list-item {
-        height: 50px;
-        padding-left: 22px;
-        font-size: 15px;
-        line-height: 50px;
-        font-weight: 300;
+    .price-card__options-list_item {
+      height: 50px;
+      padding-left: 22px;
+      font-size: 15px;
+      line-height: 50px;
+      font-weight: 300;
 
-            &:nth-child(odd) {
-                background-color: #2A3438;
-            }
+      &:nth-child(odd) {
+        background-color: #2a3438;
+      }
 
-            .price-card__options-list-icon {
-                height: 13px;
-                width: 15px;
-                margin-right: 22px ;
-            }
-        }
+      .price-card__options-list_icon {
+        height: 13px;
+        width: 15px;
+        margin-right: 22px;
+      }
     }
+  }
 
-    &__button {
+  &__button {
     display: block;
     height: 40px;
     width: 155px;
@@ -75,8 +75,8 @@
     border-radius: 20px;
     font-size: 14px;
     line-height: 17px;
-    font-weight: 400;    
+    font-weight: 400;
     color: #fff;
-    }
+    cursor: pointer;
+  }
 }
-
