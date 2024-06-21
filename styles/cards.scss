@@ -3,6 +3,17 @@
   width: 380px;
   overflow: hidden;
   background-color: #334247;
+  margin-right: 18px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:nth-child(2) {
+    margin-right: 18px;
+    position: relative;
+    overflow: hidden;
+  }
 
   &__title {
     margin: 0;
@@ -47,9 +58,11 @@
     padding: 0;
     list-style-type: none;
 
-    .price-card__options-list_item {
+    &_item {
+      position: relative;
+      display: block;
       height: 50px;
-      padding-left: 22px;
+      padding-left: 59px;
       font-size: 15px;
       line-height: 50px;
       font-weight: 300;
@@ -58,10 +71,28 @@
         background-color: #2a3438;
       }
 
-      .price-card__options-list_icon {
+      .checkmark {
+        position: absolute;
+        top: 19px;
+        left: 22px;
+        display: block;
         height: 13px;
         width: 15px;
-        margin-right: 22px;
+
+        &_green {
+          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png)
+            center no-repeat;
+        }
+
+        &_blue {
+          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
+            center no-repeat;
+        }
+
+        &_orange {
+          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png)
+            center no-repeat;
+        }
       }
     }
   }
@@ -78,5 +109,31 @@
     font-weight: 400;
     color: #fff;
     cursor: pointer;
+  }
+
+  &__badge {
+    position: absolute;
+    top: 27px;
+    right: -33px;
+    height: 25px;
+    width: 147px;
+    transform: rotate(45deg);
+    background-color: #dc3f45;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .color_green {
+    background-color: #5bb189;
+  }
+
+  .color_blue {
+    background-color: #3a6ba5;
+  }
+
+  .color_orange {
+    background-color: #ec632a;
   }
 }

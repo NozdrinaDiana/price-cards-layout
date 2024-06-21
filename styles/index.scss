@@ -1,5 +1,4 @@
 @import 'cards.scss';
-@import 'differences.scss';
 
 * {
   box-sizing: border-box;
@@ -10,11 +9,13 @@ html {
   font-size: 16px;
   color: #fff;
 }
+
 body {
   display: flex;
   min-height: 100vh;
   background-color: #141b1c;
 }
+
 .page {
   display: flex;
   margin: auto;
