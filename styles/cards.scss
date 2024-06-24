@@ -3,14 +3,8 @@
   width: 380px;
   overflow: hidden;
   background-color: #334247;
-  margin-right: 18px;
-
-  &:last-child {
-    margin-right: 0;
-  }
 
   &:nth-child(2) {
-    margin-right: 18px;
     position: relative;
     overflow: hidden;
   }
@@ -57,43 +51,19 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+  }
 
-    &_item {
-      position: relative;
-      display: block;
-      height: 50px;
-      padding-left: 59px;
-      font-size: 15px;
-      line-height: 50px;
-      font-weight: 300;
+  &__options {
+    position: relative;
+    display: block;
+    height: 50px;
+    padding-left: 59px;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 300;
 
-      &:nth-child(odd) {
-        background-color: #2a3438;
-      }
-
-      .checkmark {
-        position: absolute;
-        top: 19px;
-        left: 22px;
-        display: block;
-        height: 13px;
-        width: 15px;
-
-        &_green {
-          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png)
-            center no-repeat;
-        }
-
-        &_blue {
-          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
-            center no-repeat;
-        }
-
-        &_orange {
-          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png)
-            center no-repeat;
-        }
-      }
+    &:nth-child(odd) {
+      background-color: #2a3438;
     }
   }
 
@@ -124,16 +94,28 @@
     font-weight: 700;
     text-align: center;
   }
+}
 
-  .color_green {
-    background-color: #5bb189;
+.checkmark {
+  position: absolute;
+  top: 19px;
+  left: 22px;
+  display: block;
+  height: 13px;
+  width: 15px;
+
+  &_green {
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png)
+      center no-repeat;
   }
 
-  .color_blue {
-    background-color: #3a6ba5;
+  &_blue {
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
+      center no-repeat;
   }
 
-  .color_orange {
-    background-color: #ec632a;
+  &_orange {
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png)
+      center no-repeat;
   }
 }

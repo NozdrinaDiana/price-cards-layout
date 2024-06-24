@@ -3,13 +3,8 @@
   width: 380px;
   overflow: hidden;
   background-color: #334247;
-  margin-right: 18px;
-}
-.price-card:last-child {
-  margin-right: 0;
 }
 .price-card:nth-child(2) {
-  margin-right: 18px;
   position: relative;
   overflow: hidden;
 }
@@ -52,7 +47,7 @@
   padding: 0;
   list-style-type: none;
 }
-.price-card__options-list_item {
+.price-card__options {
   position: relative;
   display: block;
   height: 50px;
@@ -61,25 +56,8 @@
   line-height: 50px;
   font-weight: 300;
 }
-.price-card__options-list_item:nth-child(odd) {
+.price-card__options:nth-child(odd) {
   background-color: #2a3438;
-}
-.price-card__options-list_item .checkmark {
-  position: absolute;
-  top: 19px;
-  left: 22px;
-  display: block;
-  height: 13px;
-  width: 15px;
-}
-.price-card__options-list_item .checkmark_green {
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) center no-repeat;
-}
-.price-card__options-list_item .checkmark_blue {
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) center no-repeat;
-}
-.price-card__options-list_item .checkmark_orange {
-  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) center no-repeat;
 }
 .price-card__button {
   display: block;
@@ -107,13 +85,34 @@
   font-weight: 700;
   text-align: center;
 }
-.price-card .color_green {
+
+.checkmark {
+  position: absolute;
+  top: 19px;
+  left: 22px;
+  display: block;
+  height: 13px;
+  width: 15px;
+}
+.checkmark_green {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) center no-repeat;
+}
+.checkmark_blue {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) center no-repeat;
+}
+.checkmark_orange {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) center no-repeat;
+}
+
+.color_green {
   background-color: #5bb189;
 }
-.price-card .color_blue {
+
+.color_blue {
   background-color: #3a6ba5;
 }
-.price-card .color_orange {
+
+.color_orange {
   background-color: #ec632a;
 }
 
@@ -136,6 +135,7 @@ body {
 .page {
   display: flex;
   margin: auto;
+  gap: 18px;
 }
 
 /*# sourceMappingURL=styles.css.map */
