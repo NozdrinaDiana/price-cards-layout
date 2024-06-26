@@ -47,7 +47,7 @@
   padding: 0;
   list-style-type: none;
 }
-.price-card__options {
+.price-card__option {
   position: relative;
   display: block;
   height: 50px;
@@ -56,7 +56,7 @@
   line-height: 50px;
   font-weight: 300;
 }
-.price-card__options:nth-child(odd) {
+.price-card__option:nth-child(odd) {
   background-color: #2a3438;
 }
 .price-card__button {
@@ -107,11 +107,9 @@
 .color_green {
   background-color: #5bb189;
 }
-
 .color_blue {
   background-color: #3a6ba5;
 }
-
 .color_orange {
   background-color: #ec632a;
 }
